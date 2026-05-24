@@ -1,5 +1,6 @@
 import Compound from "./components/compound"
 import HigherOrder from "./components/higher-order"
+import LazyLoading from "./components/lazy-loading"
 import PresentationalAndContainer from "./components/presentational-and-container"
 import RenderProps from "./components/render-props"
 
@@ -25,6 +26,11 @@ function App() {
       <section>
         <h2>Props</h2>
         <RenderProps />
+      </section>
+      <section id="spacer"></section>
+      <section>
+        <h2>Lazy Loading</h2>
+        <LazyLoading />
       </section>
       <section id="spacer"></section>
     </>
